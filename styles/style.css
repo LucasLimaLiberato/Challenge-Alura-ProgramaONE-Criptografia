@@ -1,0 +1,144 @@
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(51, 51, 51);
+}
+
+header img {
+    height: 3em;
+    margin-left: 3%;
+}
+
+.conteudoPrincipal {
+    display: flex;
+    justify-content: center;
+
+    width: auto;
+    height: 700px;
+    gap: 3%;
+}
+
+.conteudoPrincipal_digiitarTexto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 150px;
+}
+
+.conteudoPrincipal_digiitarTexto_botoes {
+    display: flex;
+    gap: 2em;
+    padding: 20px 150px;
+}
+
+#areaDeDigitar {
+    padding-bottom: 80px;
+    font-size: 2em;
+    font-family: "Sixtyfour", sans-serif;
+    color: #E32B63;
+}
+
+.textoParagrafoPadrao {
+    color: white;
+}
+
+.butoes {
+    background-color: #E32B63;
+    padding: 1.5em 6em;
+    color: white;
+    border-radius: 10px;
+
+    margin-top: 7%;
+
+}
+
+.butoes:hover {
+    background-color: #e66088;
+}
+
+.conteudoPrincipal_visualizarTexto {
+    border-radius: 30px;
+    align-items: center;
+    margin: 0px 3% 0px 0px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 15px 15px 15px rgba( 0, 0, 0, 1);
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.conteudoPrincipal_visualizarTexto img {
+    width: 25%;
+}
+
+.conteudoPrincipal_visualizarTexto_textoPadrao {
+    text-align: center;
+    margin: 0px 10%;
+    font-size: 80%;
+}
+
+@media screen and (max-width: 1350px) {
+
+
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header {
+        align-items: center;
+    }
+
+    .conteudoPrincipal {
+        box-sizing: border-box;
+        gap: 10px;
+    }
+
+    .conteudoPrincipal_digiitarTexto {
+        flex-direction: column;
+
+        width: 70%;
+        height: 400px;
+        margin-left: 0px;
+    }
+
+    .conteudoPrincipal_digiitarTexto_botoes {
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+        padding: 2.5em 6em;
+        
+    }
+
+    .butoes {
+        box-sizing: border-box;
+        padding: 1.5em 1em;
+    
+        margin-top: 7%;
+
+    
+    }
+
+    .conteudoPrincipal_visualizarTexto {
+        margin: auto 5% auto 5%;
+        margin-top: 10%;
+        padding: 0px 0px 60px 0px;
+    }
+
+    #areaDeDigitar {
+        padding-bottom: 80px;
+        font-size: 100%;
+        font-family: 'Protest Guerrilla', sans-serif;
+        color: #E32B63;
+    }
+    
+
+    
+}
